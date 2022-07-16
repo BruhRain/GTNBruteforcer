@@ -17,8 +17,7 @@ int predict()
 
 int main()
 {
-    std::string startingStr = std::format("Getting Contents of number.prediction");
+    std::string startingStr = std::format("Getting Contents of config.json");
     std::string contents = "";
-    std::ifstream file("number.prediction");
-    
+    std::ifstream file("config.json");
 }
