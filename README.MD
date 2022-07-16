@@ -1,6 +1,6 @@
 # How to retrive token:
 
-Paste this code into discord web or desktop version in Inspect Element Console, (Ctrl + Shift + I)
+Paste this code into discord web or desktop version in Inspect Element Console, (`Ctrl + Shift + I`)
 
 Code provided by https://www.npmjs.com/package/discord.js-selfbot-v13
 
@@ -27,7 +27,7 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 
 # Adding your token to the selfbot:
 
-add your token on this line in index.js:
+add your token on this line in `index.js`:
 
 ```js
 Line 10: let tkn = 'TOKEN HERE'
