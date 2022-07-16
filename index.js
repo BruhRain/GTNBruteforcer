@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const { createInterface } = require('readline');
+const fs = require('fs');
 const rl = createInterface(process.stdin, process.stdout);
-
 
 const bot = new Client({
     checkUpdate: false,
@@ -14,11 +14,11 @@ let channelID = '959892613819944984'
 
 let max = 1000
 
-
 rl.close();
 
 bot.on('ready', async() => {
     console.log(`${bot.user.username}: started`);
+    fs.writeFileSync('number.prediction', `[${gtnID}, ${channelID}, ${max}, ${bot.user.username}]`)
 })
 
 function randomNumber(min, max) {
