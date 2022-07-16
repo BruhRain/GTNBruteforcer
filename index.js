@@ -7,7 +7,7 @@ const bot = new Client({
     checkUpdate: false,
 });
 
-let tkn = 'OTU3NDEyNzcyMTEzNjkwNjc0.G4DXvp.ML83hjA0a_97XpGdN4IHW423SI_p-UB4V37PuM'
+let tkn = 'accidently put my token in LOL, disabled my account apparently!'
 
 const gtnID = '694278840855298079'
 let channelID = '959892613819944984'
