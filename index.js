@@ -7,7 +7,7 @@ const bot = new Client({
     checkUpdate: false,
 });
 
-let tkn = 'TOKEN HERE'
+let tkn = 'OTU3NDEyNzcyMTEzNjkwNjc0.G4DXvp.ML83hjA0a_97XpGdN4IHW423SI_p-UB4V37PuM'
 
 const gtnID = '694278840855298079'
 let channelID = '959892613819944984'
@@ -30,7 +30,6 @@ function randomNumber(min, max) {
 //}, 1240)
 
 let table = []
-
 bot.on('messageCreate', async(msg) => {
     if (msg.author.id == bot.user.id) return;
     if (msg.author.id != gtnID) return;
@@ -42,16 +41,16 @@ bot.on('messageCreate', async(msg) => {
                     var randomNber = `${randomNumber(1, max)}`
                     
                     if (table.includes(randomNber)) {
-                        console.log('duplicate')
+                        console.log(`Duplicate Number: ${randomNber}`)
                     } else {
                     msg.channel.send(randomNber);
                     console.log(`Number Guess: ${randomNber}`)
                     table.push(randomNber)
                     }
-                }, 1000)
+                }, 1250)
         }
         if (embed.title == `🎉 Congratulations, ${bot.user.username}!`) {
-            console.log('win')
+            console.log('You Won!')
             process.exit();
         }
     })
