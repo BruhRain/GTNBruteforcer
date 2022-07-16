@@ -1,4 +1,6 @@
-# How to retrive token:
+# Guess the Number Bruteforcer
+
+## How to retrive token:
 
 Paste this code into discord web or desktop version in Inspect Element Console, (`Ctrl + Shift + I`)
 
@@ -25,7 +27,7 @@ console.log('%cWorked!', 'font-size: 50px');
 console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 ```
 
-# Adding your token to the selfbot:
+## Adding your token to the selfbot:
 
 add your token on this line in `index.js`:
 
