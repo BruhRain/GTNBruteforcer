@@ -36,7 +36,7 @@ bot.on('messageCreate', async(msg) => {
     if (msg.channel.id != channelID) return;
 
     msg.embeds.forEach(embed => {
-        if (embed.title == '🎉 Guess The Number 🔢') {
+        if (embed.title.includes('Guess The Number')) {
                 setInterval(function() {
                     var randomNber = `${randomNumber(1, max)}`
                     
@@ -49,7 +49,7 @@ bot.on('messageCreate', async(msg) => {
                     }
                 }, 1250)
         }
-        if (embed.title == `🎉 Congratulations, ${bot.user.username}!`) {
+        if (embed.title.includes(`Congratulations, ${bot.user.username}!`)) {
             console.log('You Won!')
             process.exit();
         }
