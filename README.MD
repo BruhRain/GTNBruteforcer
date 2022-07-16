@@ -37,7 +37,7 @@ Line 10: let tkn = 'TOKEN HERE'
 
 ## Todo:
 
-```css
+```
 [+] Implement and test algorithms to predict the random numbers
 [+] Z3 Testing and implementation
 ```
