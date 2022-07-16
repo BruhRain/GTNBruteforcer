@@ -9,8 +9,8 @@
 #include <format>
 
 std::vector <int> seq{};
-std::fstream config("config.json")
-std::fstream predFile("number.prediction")
+std::fstream config("config.json");
+std::fstream predFile("number.prediction");
 std::string configContents;
 
 
@@ -33,7 +33,7 @@ int predict()
     // Placeholder for now so code can compile
     int predicted;
     std::string notice = std::format();
-    return predicted
+    return predicted;
 }
 
 int main()
