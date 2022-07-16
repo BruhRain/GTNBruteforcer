@@ -7,7 +7,7 @@ const bot = new Client({
     checkUpdate: false,
 });
 
-let tkn = ''
+let tkn = 'TOKEN HERE'
 
 const gtnID = '694278840855298079'
 let channelID = '959892613819944984'
@@ -30,8 +30,6 @@ function randomNumber(min, max) {
 //}, 1240)
 
 let table = []
-
-
 
 bot.on('messageCreate', async(msg) => {
     if (msg.author.id == bot.user.id) return;
@@ -65,4 +63,4 @@ bot.on('rateLimit', (info) => {
 })
 
 
-    bot.login(tkn)
+bot.login(tkn)
