@@ -18,7 +18,7 @@ rl.close();
 
 bot.on('ready', async() => {
     console.log(`${bot.user.username}: started`);
-    fs.writeFileSync('number.prediction', `[${gtnID}, ${channelID}, ${max}, ${bot.user.username}]`)
+    fs.writeFileSync('config.json', `[${gtnID}, ${channelID}, ${max}, ${bot.user.username}]`)
 })
 
 function randomNumber(min, max) {
