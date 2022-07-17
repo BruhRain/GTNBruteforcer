@@ -43,7 +43,6 @@ Line 10: let tkn = 'TOKEN HERE'
 
 ```
 [+] Implement and test algorithms to predict the random numbers
-[+] Add token to config.json
 [+] Try to make rate limiting occuring as low as possible
 
 [+] Z3 Testing and implementation
