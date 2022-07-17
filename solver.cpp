@@ -32,7 +32,7 @@ int predict()
 {
     // Placeholder for now so code can compile
     int predicted;
-    std::string notice = std::format();
+    std::string notice = std::format("");
     return predicted;
 }
 
