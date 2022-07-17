@@ -48,7 +48,7 @@ int predict()
     // Placeholder for now so code can compile
     int predicted;
 
-    std::string notice = std::format("Channel: {}\nBot: {}\nMax: {}", channelID, botID, maxValue);
+    std::string notice = std::format("Channel: {}\nBot: {}\nMax: {}\n", channelID, botID, maxValue);
     std::cout << notice << "\n";
 
     z3::context context;
