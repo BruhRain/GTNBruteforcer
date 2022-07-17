@@ -33,10 +33,12 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 
 ## Adding your token to the selfbot
 
-add your token on this line in `index.js`:
+add your token on this line in `config.json`
 
-```js
-Line 10: let tkn = 'TOKEN HERE'
+```json
+{
+    "token": ""
+}
 ```
 
 ## Todo
