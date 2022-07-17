@@ -2,9 +2,7 @@
 
 ## Information
 
-if you decide to fork the repository for your own additions, please make sure to not commit and push your token, it WILL disable your 
-
-discord account until you reset your password from the email they send you.
+if you decide to fork the repository for your own additions, please make sure to not commit and push your token, it WILL disable your  discord account until you reset your password from the email they send you.
 
 ## How to retrive token
 
@@ -56,8 +54,6 @@ Line 10: let tkn = 'TOKEN HERE'
 
 <a href="https://cdn.discordapp.com/attachments/957413132064653393/998233493798649926/unknown.png?size=4096">apparently im making a bypass by sending numbers??</a>
 
-because github doesn't like big files, i'll attach a zip for the pdb files below:
-
-redirects to <a href="#">/BruhRain/GTNBruteforcer/#</a> for now
+because github doesn't like big files, i'll attach a zip for the pdb files below (redirects to <a href="#">/BruhRain/GTNBruteforcer/#</a> for now):
 
 <a href="#">libz3pdb.zip</a>
