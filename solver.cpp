@@ -17,9 +17,10 @@ std::string configContents;
 
 json configJson = json::parse(configContents);
 
-std::string channelID = configJson.value("channelID", "oops");
-std::string botID = configJson.value("botID", "oops");
-int maxValue = configJson.value("max", "oops");
+std::string channelID = configJson.value("channelID", "0");
+std::string botID = configJson.value("botID", "0");
+int maxValue = configJson.value("max", 1000);
+std::string token = configJson.value("token", "TOKEN");
 
 void readConfig()
 {
